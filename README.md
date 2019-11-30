@@ -5,7 +5,7 @@
 This is the back end repo for the DECKARD single page application, a project built
 by Alex Davidenko in General Assembly's Software Engineering Immersive. DECKARD is
 a single-page application, where users can create and interact with flashcards to
-help in their studies.  
+help in their studies.
 
 #### ABOUT THIS API
 The DECKARD API is built with Ruby on Rails on top of a PostgreSQL database. Created cards and decks are stored in PostgreSQL tables.
@@ -24,7 +24,7 @@ The DECKARD API is built with Ruby on Rails on top of a PostgreSQL database. Cre
 - Rails
 - Ruby
 
-<!--please check out the [Front End GitHub Repository](https://github.com/alexgdav/cards-client) for the front end tech stack-->
+(please check out the [Front End GitHub Repository](https://github.com/alexgdav/cards-client) for the front end tech stack)
 
 #### DEVELOPMENT PROCESS
 #### PLANNING
