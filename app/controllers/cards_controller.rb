@@ -1,5 +1,5 @@
-class CardsController < ApplicationController
-  before_action :set_card, only: %i[show update destroy]
+class CardsController < OpenReadController
+  before_action :set_card, only: %i[update destroy]
 
   # GET /cards
   def index
@@ -10,12 +10,13 @@ class CardsController < ApplicationController
 
   # GET /cards/1
   def show
+    @card = Card.find(params[:id])
     render json: @card
   end
 
   # POST /cards
   def create
-    @card = Card.new(card_params)
+    @card = current_user.cards.build(card_params)
 
     if @card.save
       render json: @card, status: :created, location: @card
@@ -42,7 +43,7 @@ class CardsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_card
-    @card = Card.find(params[:id])
+    @card = current_user.cards.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
