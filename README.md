@@ -1,15 +1,24 @@
 
 
-### README TITLE PLACEHOLDER
-About the app overall
+### README PLACEHOLDER TITLE
+
+### ABOUT
+This is the back end repo for PLACEHOLDER TITLE application. The API is built with Ruby on Rails on top of a PostgreSQL database. Created cards and decks are stored in PostgreSQL tables.
+
 ### LINKS
-Front end repo, deployed app, deployed back end
-### ABOUT APP / BACKEND
-Built with, how works
-##### TECHNOLOGIES USED (BACKEND)
+- [Front End GitHub Repository](https://github.com/alexgdav/cards-client)
+- [Deployed App](http://#)
+- [Deployed Back End At Heroku](https://glacial-eyrie-35831.herokuapp.com/)
+
+### TECHNOLOGIES USED
+###### BACK END
+- PostgreSQL
+- Rails
+- Ruby
+
 ### DEVELOPMENT PROCESS
 ### PLANNING
-### ERDs
+### ERD
 
 <a href="https://imgur.com/1QSUcQo"><img src="https://i.imgur.com/1QSUcQo.png" title="CARDS API ERD" /></a>
 
