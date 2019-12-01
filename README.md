@@ -29,6 +29,12 @@ The DECKARD API is built with Ruby on Rails on top of a PostgreSQL database. Cre
 - Rails
 - Ruby
 
+### SETUP INSTRUCTIONS
+
+ - clone or download this repo
+ - install dependencies with `bundle install`
+ - use `rails server` to run locally
+
 ### API DEVELOPMENT PROCESS, PLANNING, AND PROBLEM SOLVING STRATEGIES
 
 After the rewarding mob-programming opportunities of the group project, going back to solo development took some getting used to. We had been able to mix up our front end and back end work as a team; switching between API and client, whether to fully work on a feature, or help a group member troubleshoot, had felt easy in a way it doesn't when working alone.
