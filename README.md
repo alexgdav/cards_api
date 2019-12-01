@@ -67,20 +67,20 @@ I expected the front end for this project to be more challenging than the API, a
 | HTTP   |  CRUD  | URI Pattern            | Controller#Action |
 |--------|--------|------------------------|-------------------|
 | GET   | READ | `/decks`             | `decks#index`    |
-| GET   | READ | `/decks/id`             | `decks#show`    |
+| GET   | READ | `/decks/:id`             | `decks#show`    |
 | POST   | CREATE  | `/decks`  | `decks#create`  |
-| PATCH  | UPDATE | `/decks/id`     | `decks#update`  |
-| DELETE | DELETE |  `/decks/id`           | `decks#destroy`   |
+| PATCH  | UPDATE | `/decks/:id`     | `decks#update`  |
+| DELETE | DELETE |  `/decks/:id`           | `decks#destroy`   |
 
 #### CARDS
 
 | HTTP   |  CRUD  | URI Pattern            | Controller#Action |
 |--------|--------|------------------------|-------------------|
 | GET    | READ | `/cards`             | `cards#index`    |
-| GET    | READ | `/cards/id`             | `cards#show`    |
+| GET    | READ | `/cards/:id`             | `cards#show`    |
 | POST   |  CREATE | `/cards/`   | `cards#create`   |
-| PATCH  | UPDATE | `/cards/id`     | `cards#update`  |
-| DELETE | DELETE |  `/cards/id`           | `cards#destroy`   |
+| PATCH  | UPDATE | `/cards/:id`     | `cards#update`  |
+| DELETE | DELETE |  `/cards/:id`           | `cards#destroy`   |
 
 
 ### FUTURE GOALS AND PLANNED FIXES FOR THE API
