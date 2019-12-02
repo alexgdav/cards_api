@@ -53,6 +53,7 @@ I expected the front end for this project to be more challenging than the API, a
 - test Decks INDEX and SHOW methods with cURL and Postman
 - repeat the above for Cards Controller, and update Heroku
 - test remaining CRUD actions on both Decks and Cards
+- add User reference to Cards 
 
 ### ERD
 
