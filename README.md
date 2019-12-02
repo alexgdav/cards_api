@@ -20,7 +20,7 @@ This is the back end repo for PLACEHOLDER TITLE application. The API is built wi
 ### PLANNING
 ### ERD
 
-<a href="https://imgur.com/1QSUcQo"><img src="https://i.imgur.com/1QSUcQo.png" title="CARDS API ERD" /></a>
+<a href="https://imgur.com/gwqdjIo"><img src="https://i.imgur.com/gwqdjIo.png" title="CARDS API ERD" /></a>
 
 ### RESOURCE ROUTES
 ##### USERS
