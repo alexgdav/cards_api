@@ -48,6 +48,7 @@ class CardsController < OpenReadController
 
   # Only allow a trusted parameter "white list" through.
   def card_params
-    params.require(:card).permit(:question, :answer, :deck_id, :user_id)
+    params.require(:card).permit(:question, :answer, :deck,
+                                 :user, :deck_id, :user_id)
   end
 end
