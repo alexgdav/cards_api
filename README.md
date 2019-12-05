@@ -29,11 +29,18 @@ The DECKARD API is built with Ruby on Rails on top of a PostgreSQL database. Cre
 - Rails
 - Ruby
 
+### DECKARD IN ACTION
+
+<a href="https://seidavbucket.s3.amazonaws.com/project4/createnewcard.png"><img src="https://seidavbucket.s3.amazonaws.com/project4/createnewcard.png" title="Creating a card" /></a>
+
+<a href="https://seidavbucket.s3.amazonaws.com/project4/signedindecks.png"><img src="https://seidavbucket.s3.amazonaws.com/project4/signedindecks.png" title="Browsing existing decks" /></a>
+
+
 ### SETUP INSTRUCTIONS
 
  - clone or download this repo
  - install dependencies with `bundle install`
- - use `rails server` to run locally
+ - use `rails server` / `bin/rails server` to run locally
 
 ### API DEVELOPMENT PROCESS, PLANNING, AND PROBLEM SOLVING STRATEGIES
 
@@ -53,7 +60,7 @@ I expected the front end for this project to be more challenging than the API, a
 - test Decks INDEX and SHOW methods with cURL and Postman
 - repeat the above for Cards Controller, and update Heroku
 - test remaining CRUD actions on both Decks and Cards
-- add User reference to Cards 
+- add User reference to Cards
 
 ### ERD
 
