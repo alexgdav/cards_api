@@ -7,6 +7,9 @@ by Alex Davidenko in General Assembly's Software Engineering Immersive. DECKARD 
 a single-page application, where users can create and interact with flashcards to
 help in their studies.
 
+All users may view all resources, however, authorization is required to make any
+changes. New subject decks may be created by an authenticated user; existing decks may be deleted by an authorized user (the user who owns the resource). Individual flashcards may be created as belonging to subject decks. Card fields may be updated, and cards may be deleted by an authorized user. Cards may be assigned to a different deck by an authorized user.
+
 ##### (The sections below cover the API only. Please check out the [Front End GitHub Repository](https://github.com/alexgdav/cards-client) for the front end tech stack, wireframes, user stories, front end stretch goals and planned fixes, and the front end development process)
 
 ### ABOUT THIS API
@@ -14,7 +17,7 @@ The DECKARD API is built with Ruby on Rails on top of a PostgreSQL database. Cre
 
 ### LINKS
 
-- [Deployed App](http://#)
+- [Deployed App](https://alexgdav.github.io/cards-client/)
 - [Deployed Back End At Heroku](https://glacial-eyrie-35831.herokuapp.com/)
 - [Front End GitHub Repository](https://github.com/alexgdav/cards-client)
 
@@ -98,8 +101,9 @@ I expected the front end for this project to be more challenging than the API, a
 
 
 ### FUTURE GOALS AND PLANNED FIXES FOR THE API
-- implement functionality for users to favorite decks, or set them as "currently using"
-- implement functionality for users to re-use existing cards in multiple subject decks instead of creating new cards each time
+
+- implement functionality for users to re-use existing cards in multiple subject decks instead of creating new cards each time (many to many relationship between
+cards and decks)
 - implement functionality for users to import/upload an entire deck via .csv (or another seed-like method)
 #### ACKNOWLEDGEMENTS
 Thank you to the students and instructors of GA SEI-05!
